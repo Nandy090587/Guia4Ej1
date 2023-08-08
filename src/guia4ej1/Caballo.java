@@ -11,5 +11,5 @@ public class Caballo extends Animal{
     public void Alimentarse(){
         System.out.println("El caballo " + nombre + " solo come: " + alimento);
     }
-   // COMENTARIO NUEVO
+   // buenas buenas
 }
