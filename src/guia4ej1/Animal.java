@@ -47,6 +47,11 @@ public Animal(String nombre, String alimento, int edad, String raza){
     }
 
     public abstract void Alimentarse();
+
+    @Override
+    public String toString() {
+        return "Animal" + "\n nombre: " + nombre + "\n alimento: " + alimento + "\n edad: " + edad + "\n raza: " + raza;
+    }
         
     
 
